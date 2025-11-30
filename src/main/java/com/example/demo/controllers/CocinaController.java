@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.net.URI;
 import java.util.List;
 
-@CrossOrigin(origins = "https://h7-prog.github.io/frontend_2/")
+@CrossOrigin(origins = "https://h7-prog.github.io")
 @RestController
 @RequestMapping("/api/cocinas")
 public class CocinaController {
@@ -41,4 +41,5 @@ public class CocinaController {
         return ResponseEntity.noContent().build();
     }
 }
+
 
