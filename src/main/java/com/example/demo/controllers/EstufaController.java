@@ -10,7 +10,7 @@ import java.net.URI;
 import java.util.List;
 import java.util.Map;
 
-@CrossOrigin(origins = "https://h7-prog.github.io")
+@CrossOrigin(origins = "https://yarotsanabrialaura.github.io/Yarot-Frontend/")
 @RestController
 @RequestMapping("/api/estufas")
 
@@ -55,4 +55,5 @@ public class EstufaController {
         return ResponseEntity.noContent().build();
     }
 }
+
 
